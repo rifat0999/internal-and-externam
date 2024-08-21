@@ -14,6 +14,60 @@
 	<a href="neww/page/about.html">About</a> <br>
 	<a href="new/friend.html">Friend </a>
 
-<h1>The map and area elements</h1>
+<h1>Form System</h1>
 
-<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+<p>This is my work form:</p>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/-xicon" href="../../images/favicon.png">
+	<title>form</title>
+</head>
+<body>
+
+	<h1>Form</h1>
+		
+
+		<form action="#" method="get" enctype="multipart/form-data">
+
+			<label for="first_name">My First Name:</label> <br>
+			<input type="text" name="first_name" placeholder="First name" id="first_name" class="first_name" required> <br>
+
+			<label for="last_name">My Last Name:</label> <br>
+			<input type="text" name="last_name" placeholder="Last name" id="last_name" class="last_name" required> <br>
+
+			<label for="email">My Email:</label> <br>
+			<input type="email" name="email" placeholder="Email" id="email" class="email" required> <br>
+
+			<label for="gender">Genger:</label> <br>
+			<input type="radio" name="gender"> <span>Male</span>
+			<input type="radio" name="gender"> <span>Female</span> <br>
+
+			
+
+
+			<label for="qualification">Qualification:</label> <br>
+			<input type="checkbox"><span>SSC</span>
+			<input type="checkbox"><span>HSC</span>
+			<br><br>
+
+			<label for="district">District:</label> <br>
+			<select name="district">
+				<option>Dinajpur</option>
+				<option>Rongpur</option>
+				<option>Rajshahi</option>
+			</select>
+			<br><br>
+			<label for="message">Type your message</label><br>
+			<textarea name="" id="" cols="30" rows="5" placeholder="Type your message"></textarea><br><br>
+
+
+			<label for="password">Password:</label><br>
+			<input type="password" name="password" placeholder="Password"> <br> <br>
+
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
